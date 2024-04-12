@@ -1,0 +1,15 @@
+<main id="adminpage">
+        <h1>Admin's Page</h1>
+        {{#each payments}}
+
+            <section>
+                <p>Username: {{this.username}}</p>
+                <p>Class: {{this.classType}}</p>
+                <p>Subtotal: {{this.subTotal}}</p>
+                <p>HST: 13%</p>
+                <p>total: {{this.total}}</p>
+                <p>Date: {{this.dateCreated}}</p>
+            </section>
+        {{/each}}
+
+</main>

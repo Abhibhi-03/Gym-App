@@ -1,0 +1,19 @@
+<main id="cartpage">
+    {{#if userLoggedIn}}
+        {{#if isCartEmpty}}
+            <h1>Your cart is empty at the moment!</h1>
+        {{else}}
+            <h2>Your Cart:</h2>
+            {{#each cartItems}}
+                <section>
+                    <p>Class: {{this.classType}}</p>
+                    <p>duration: {{this.lengthInDB}}</p>
+                    <p>Subtotal: {{this.subTotal}}</p>
+                    <p>Totalcost: {{this.totalcost}}</p>
+                </section>
+            {{/each}}
+        {{/if}}
+    {{else}}
+        <h1>You must be logged in to see the cart</h1>
+    {{/if}}
+</main>

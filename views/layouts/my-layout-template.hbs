@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to CJ's GYM</h1>
+    <p>Get Fit From Fat</p>
+    <nav>
+        <ul>
+            {{!-- loggedIn becomes true only when we log in through the loginendpoint or creatAcc endpoint --}}
+            {{#if UserLoggedIn}}
+            <li><a href="logout">Log Out</a></li>
+            {{else}}
+            <li><a href="/">Login</a></li>
+            {{/if}}
+            <li><a href="classes">Our Schedule</a></li>
+            <li><a href="cart">Cart</a></li>
+            <li><a href="admin">Admin page</a></li>
+        </ul>
+    </nav>
+    {{{body}}}
+</body>
+</html>

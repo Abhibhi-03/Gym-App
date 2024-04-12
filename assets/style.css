@@ -1,0 +1,191 @@
+body {
+  background-color: lavender;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  background-color: #333;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h1{
+  text-align: center;
+}
+p{
+  text-align: center;
+  font-size: 24px;
+}
+
+/* LOGIN PAGE */
+body {
+  background-color: lavender;
+}
+
+#loginpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#loginpage form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#loginpage input[type="text"], input[type="password"] {
+  width: 100%;
+  max-width: 400px;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 5px solid #333;
+  border-radius: 5px;
+}
+
+#loginpage button {
+  background-color: #333;
+  border: none;
+  color:white;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-flexbox;
+  font-size: 20px;
+  margin: 10px;
+ 
+}
+
+
+
+/*CLASS*/
+#classpage body {
+  background-color: lavender;
+}
+
+#classpage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+#classpage form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+#classpage h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#classpage img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+#classpage p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#classpage button {
+  background-color: #333;
+  border: none;
+  color:white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* error page */
+#errorpage body{
+  background-color: lavender;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#errorpage section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#errorpage h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: red;
+}
+
+#errorpage p {
+  font-size: 30px;
+  text-align: center;
+}
+
+#errorpage button {
+  background-color: #333;
+  border: none;
+  color:white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 10px;
+}
+
+/* cartpage */
+#cartpage h1{
+  text-align: center;
+}
+
+#cartpage h2{
+  text-align: center;
+}
+
+/* Admin page */
+#adminpage{
+  text-align: center;
+}
+
+
+
